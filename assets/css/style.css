@@ -7,7 +7,7 @@ body{
 
 /* header */
 .header {
-    background-color: #f5f5f5;
+    background-color: #09bcf3b2;
     width: 100%;
     height: 150px;
     display: flex;
@@ -25,7 +25,7 @@ body{
     margin-top: 35px;
 }
 .header-lang table {
-    color: #333;
+    color: #fff;
 }
 .header-lang select{
     border-radius: 30px;
@@ -51,7 +51,9 @@ body{
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    color: #797878;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
     margin-top: 10px;
 }
 .header-nav {
@@ -68,7 +70,7 @@ body{
 .header-navitem > a {
     display: block;
     padding: 10px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-color .25s;
@@ -81,4 +83,25 @@ body{
         display: grid;
         margin-top: 50px;
     }
+}
+
+/* products */
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+li {
+    list-style: none;
+    margin: 0 5px;
+}
+.card-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+.card-link > h1 {
+    text-align: center;
 }
