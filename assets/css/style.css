@@ -86,22 +86,86 @@ body{
 }
 
 /* products */
-ul {
+.mainproducts{
     display: flex;
     justify-content: center;
-    margin: 150px;
+    margin: 150px 0 30px 0;
 }
-li {
+.products-list {
     list-style: none;
     margin: 0 5px;
 }
 .card-link {
     color: #333;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     align-items: center;
 }
 .card-link > h1 {
     text-align: center;
+}
+
+/* news */
+.main-news {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.news-link {
+    display: block;
+    padding: 15px;
+    margin: 20px;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    background-color: lemonchiffon;
+    transition: background-color .25s;
+}
+.news-link:hover {
+    background-color: rgb(252, 249, 225);
+}
+.news-image {
+    display: inline-block;
+}
+.news-label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffffbe;
+    padding: 5px;
+    z-index: 5;
+}
+.news-time {
+    font-weight: bold;
+    font-size: 17px;
+}
+.news-discription {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 0 0 5px;
+}
+@media screen and (max-width: 1525px) {
+    .main-news {
+        display: grid;
+    }
+
+}
+
+/* media */
+.media {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.media-contents {
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中夜揃え */
+}
+.sns {
+    padding: 30px;
 }
