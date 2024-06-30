@@ -172,15 +172,12 @@ body {
   text-align: center;
 }
 .events-inner {
-  display: flex;
   margin-top: 50px;
-  justify-content: center;
 }
 .event-index {
   display: flex;
   list-style: none;
-  margin-block-start: 0;
-  padding-inline-start: 0;
+  justify-content: center;
 }
 .event-link {
   margin: 30px;
@@ -189,11 +186,11 @@ body {
 .event-image {
   justify-content: center;
   border-radius: 15px;
-  box-shadow: 5px 5px 0 #bbb;
+  box-shadow: 5px 5px 0 #eee;
   transition: box-shadow 0.25s;
 }
 .event-image:hover {
-  box-shadow: 0 0 0 #bbb;
+  box-shadow: 0 0 0 #eee;
 }
 .event-discription {
   color: #ff3b96;
@@ -206,11 +203,11 @@ body {
   top: -25px;
   background-color: #e2f53a;
   border-radius: 15px;
-  box-shadow: 5px 5px 0 #bbb;
+  box-shadow: 5px 5px 0 #eee;
   transition: box-shadow 0.25s;
 }
 .event-discription:hover {
-  box-shadow: 0 0 0 #bbb;
+  box-shadow: 0 0 0 #eee;
 }
 .event-timeandlocation {
   color: #ad800d;
@@ -232,11 +229,22 @@ body {
   margin-right: 3px;
   transform: translateY(6px);
 }
-@media screen and (max-width: 1525px) {
-  .events-index {
-    display: grid;
+@media screen and (max-width: 1252px) {
+.event-index
+ {
+  display: block;
+  justify-content: center;
+  margin: 30 0px;
+  }
+  .event-discription
+  {
+    display: inline;
+    top: -100px;
+    left: -20px;
   }
 }
+
+
 /* media */
 .media {
   text-align: center;
