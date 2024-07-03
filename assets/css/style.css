@@ -190,12 +190,12 @@ body {
   margin: 30px;
   justify-content: center;
   border-radius: 15px;
-  box-shadow: 5px 5px 0 #bebebe;
-  transition: box-shadow 0.25s;
+  /* box-shadow: 5px 5px 0 #bebebe;
+  transition: box-shadow 0.25s; */
 }
-.event-image:hover {
+/* .event-image:hover {
   box-shadow: 0 0 0 #eee;
-}
+} */
 .event-discription {
   color: #ff3b96;
   font-size: 20px;
@@ -205,13 +205,13 @@ body {
   height: 95px;
   position: absolute;
   top: -70px;
-  background-color: #e2f53a;
+  background-color: #baf848;
+  border-color: #ccc;
   border-radius: 15px;
-  box-shadow: 5px 5px 0 #eee;
   transition: box-shadow 0.25s;
 }
 .event-discription:hover {
-  box-shadow: 0 0 0 #eee;
+  box-shadow: 10px 10px 10px #00FF47;
 }
 .event-timeandlocation {
   color: #ad800d;
