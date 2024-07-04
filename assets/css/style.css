@@ -106,6 +106,9 @@ body {
 .card-link > h1 {
   text-align: center;
 }
+.card-image:hover {
+  filter: drop-shadow(0 0 10px #fffb00);
+}
 
 /* news */
 .news {
@@ -127,7 +130,7 @@ body {
   transition: background-color 0.25s;
 }
 .news-link:hover {
-  background-color: rgb(252, 249, 225);
+  filter: drop-shadow(0 0 10px #f700ff);
 }
 .news-image {
   display: inline-block;
@@ -190,12 +193,11 @@ body {
   margin: 30px;
   justify-content: center;
   border-radius: 15px;
-  /* box-shadow: 5px 5px 0 #bebebe;
-  transition: box-shadow 0.25s; */
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
-/* .event-image:hover {
-  box-shadow: 0 0 0 #eee;
-} */
+.event-image:hover {
+  filter: drop-shadow(0 0 10px #00FF47);
+}
 .event-discription {
   color: #ff3b96;
   font-size: 20px;
@@ -208,10 +210,10 @@ body {
   background-color: #baf848;
   border-color: #ccc;
   border-radius: 15px;
-  transition: box-shadow 0.25s;
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
 .event-discription:hover {
-  box-shadow: 10px 10px 10px #00FF47;
+  filter: drop-shadow(0 0 10px #00FF47);
 }
 .event-timeandlocation {
   color: #ad800d;
@@ -245,7 +247,7 @@ body {
     display: inline;
     justify-content: center;
     top: -100px;
-    left: -20px;
+    left: -5px;
   }
 }
 
@@ -265,4 +267,7 @@ body {
 }
 .sns {
   padding: 30px;
+}
+.sns:hover {
+  filter: drop-shadow(0 0 10px #ffc400);
 }
