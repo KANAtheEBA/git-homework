@@ -13,7 +13,7 @@ h1 {
 }
 /* header */
 .header {
-  background-color: #3bd6e4e3;
+  background-color: #070707e3;
   width: 100%;
   height: 150px;
   display: flex;
@@ -61,6 +61,9 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   margin-top: 10px;
+}
+.title-logo {
+  text-align: left;
 }
 .header-nav {
   padding-top: 35px;
@@ -208,32 +211,32 @@ h1 {
   filter: drop-shadow(0 0 10px #00FF47);
 }
 .event-discription {
-  color: #ff3b96;
+  color: #363636;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  width: 250px;
+  width: 200px;
   height: 95px;
   position: absolute;
-  top: -70px;
-  background-color: #baf848;
-  border-color: #ccc;
+  top: -110px;
+  left: +50px;
+
   border-radius: 15px;
   filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
-.event-discription:hover {
-  filter: drop-shadow(0 0 10px #00FF47);
+.event-discription :hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: #00FF47;
+  color: #00FF47;
+  filter: drop-shadow(0 0 10px #c8ff00);
+ 
 }
-.event-timeandlocation {
-  color: #ad800d;
+
+.event-timeandlocation .event-location {
   display: inline-block;
-  justify-content: center;
-  margin-inline-start: 0;
 }
-.event-location {
-  display: block;
-  margin-inline-start: 0;
-}
+
 .event-location::before {
   content: "";
   display: inline-block;
@@ -255,8 +258,8 @@ h1 {
   {
     display: inline;
     justify-content: center;
-    top: -100px;
-    left: -5px;
+    top: -110px;
+    left: +60px;
   }
 }
 
@@ -327,10 +330,13 @@ h1 {
   display: inline-block;
   color: #fff;
   font-weight: bold;
-  background-color: #333;
+  background-color: #cf076b;
   text-align: center;
   padding: 15px 60px;
   text-decoration: none;
   border-radius: 5px;
 
+}
+.button-submission:hover {
+  filter: drop-shadow(0 0 10px #ff01d5);
 }
