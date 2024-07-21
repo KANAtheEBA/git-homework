@@ -92,7 +92,7 @@ h1 {
   border-bottom: 2px solid #57e3fc;
   filter: drop-shadow(0 0 10px #02a2ff);
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1500px) {
   .header-navlist {
     display: grid;
     margin-top: 50px;
@@ -140,10 +140,11 @@ h1 {
   color: #333;
   text-decoration: none;
   position: relative;
-  background-color: #ffe23b;
+  background-color: #ceb737;
   transition: background-color 0.25s;
 }
 .news-link:hover {
+  background-color: #f1d741;
   filter: drop-shadow(0 0 10px #fffb00);
 }
 .news-image {
@@ -216,6 +217,12 @@ h1 {
   border: 1px solid #a6ff00;
   border-radius: 15px;
   filter: drop-shadow(0 0 10px #00ff0d);
+}
+
+@media screen and (max-width: 1525px) {
+  .events-inner {
+    display: grid;
+  }
 }
 
 
